@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0804C60136BF450F238994F3 /* Pods_NaturalReminderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E4482EEBFC1AECB181A2F0 /* Pods_NaturalReminderTests.framework */; };
+		1A2C54E2E172C59B1164848E /* Pods_NaturalReminder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A089C83F51CC6FC6FA487E50 /* Pods_NaturalReminder.framework */; };
+		9C08FB732AC9DF02000CD69D /* NaturalReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08FB722AC9DF02000CD69D /* NaturalReminderApp.swift */; };
+		9C08FB752AC9DF02000CD69D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08FB742AC9DF02000CD69D /* ContentView.swift */; };
+		9C08FB772AC9DF03000CD69D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C08FB762AC9DF03000CD69D /* Assets.xcassets */; };
+		9C08FB7A2AC9DF03000CD69D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C08FB792AC9DF03000CD69D /* Preview Assets.xcassets */; };
+		9C08FB852AC9DF03000CD69D /* NaturalReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08FB842AC9DF03000CD69D /* NaturalReminderTests.swift */; };
+		9C08FB8F2AC9DF03000CD69D /* NaturalReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08FB8E2AC9DF03000CD69D /* NaturalReminderUITests.swift */; };
+		9C08FB912AC9DF03000CD69D /* NaturalReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C08FB902AC9DF03000CD69D /* NaturalReminderUITestsLaunchTests.swift */; };
+		9C5DB49F2AD2CE8D00211A45 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB49E2AD2CE8D00211A45 /* ListItemView.swift */; };
+		9C5DB4A12AD2CED700211A45 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB4A02AD2CED700211A45 /* DateUtils.swift */; };
+		9C5DB4A32AD2CF4D00211A45 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB4A22AD2CF4D00211A45 /* ToggleButton.swift */; };
+		9C5DB4A52AD2CF7A00211A45 /* TimeHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB4A42AD2CF7A00211A45 /* TimeHolder.swift */; };
+		9C5DB4A72AD2CFA300211A45 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB4A62AD2CFA300211A45 /* SettingsView.swift */; };
+		9C5DB4A92AD2CFD100211A45 /* SettingsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB4A82AD2CFD100211A45 /* SettingsData.swift */; };
+		9C5DB4AD2AD2D03E00211A45 /* BottomFieldText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5DB4AC2AD2D03E00211A45 /* BottomFieldText.swift */; };
+		9C5F69A32ACAB8B300D24268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F69A22ACAB8B300D24268 /* AppDelegate.swift */; };
+		9C5F69A52ACAC86900D24268 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F69A42ACAC86900D24268 /* NotificationManager.swift */; };
+		9C5F69A72ACAE52900D24268 /* DateStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F69A62ACAE52900D24268 /* DateStorage.swift */; };
+		9C5F69A92ACAE69300D24268 /* ParsedListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F69A82ACAE69300D24268 /* ParsedListItem.swift */; };
+		9C5F69AB2ACC181F00D24268 /* ReminderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5F69AA2ACC181F00D24268 /* ReminderManager.swift */; };
+		D29B2219170A39DF7F7904EE /* Pods_NaturalReminder_NaturalReminderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE977790937B5AFBD1369435 /* Pods_NaturalReminder_NaturalReminderUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C08FB812AC9DF03000CD69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C08FB672AC9DF02000CD69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C08FB6E2AC9DF02000CD69D;
+			remoteInfo = NaturalReminder;
+		};
+		9C08FB8B2AC9DF03000CD69D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C08FB672AC9DF02000CD69D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C08FB6E2AC9DF02000CD69D;
+			remoteInfo = NaturalReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33890A7A19D74841A5B1122F /* Pods-NaturalReminder-NaturalReminderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalReminder-NaturalReminderUITests.release.xcconfig"; path = "Target Support Files/Pods-NaturalReminder-NaturalReminderUITests/Pods-NaturalReminder-NaturalReminderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		45A31F75B676DEBD630F010F /* Pods-NaturalReminder-NaturalReminderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalReminder-NaturalReminderUITests.debug.xcconfig"; path = "Target Support Files/Pods-NaturalReminder-NaturalReminderUITests/Pods-NaturalReminder-NaturalReminderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F02B0BFE2709038A33A291A /* Pods-NaturalReminderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalReminderTests.release.xcconfig"; path = "Target Support Files/Pods-NaturalReminderTests/Pods-NaturalReminderTests.release.xcconfig"; sourceTree = "<group>"; };
+		5822D7315AAE5668CA9EE3D2 /* Pods-NaturalReminder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalReminder.debug.xcconfig"; path = "Target Support Files/Pods-NaturalReminder/Pods-NaturalReminder.debug.xcconfig"; sourceTree = "<group>"; };
+		75C806C60DFABF1386679E7F /* Pods-NaturalReminderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalReminderTests.debug.xcconfig"; path = "Target Support Files/Pods-NaturalReminderTests/Pods-NaturalReminderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		901E590B5FE187610123F5A5 /* Pods-NaturalReminder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalReminder.release.xcconfig"; path = "Target Support Files/Pods-NaturalReminder/Pods-NaturalReminder.release.xcconfig"; sourceTree = "<group>"; };
+		9C08FB6F2AC9DF02000CD69D /* NaturalReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaturalReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08FB722AC9DF02000CD69D /* NaturalReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalReminderApp.swift; sourceTree = "<group>"; };
+		9C08FB742AC9DF02000CD69D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C08FB762AC9DF03000CD69D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C08FB792AC9DF03000CD69D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C08FB7B2AC9DF03000CD69D /* NaturalReminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NaturalReminder.entitlements; sourceTree = "<group>"; };
+		9C08FB802AC9DF03000CD69D /* NaturalReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08FB842AC9DF03000CD69D /* NaturalReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalReminderTests.swift; sourceTree = "<group>"; };
+		9C08FB8A2AC9DF03000CD69D /* NaturalReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaturalReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C08FB8E2AC9DF03000CD69D /* NaturalReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalReminderUITests.swift; sourceTree = "<group>"; };
+		9C08FB902AC9DF03000CD69D /* NaturalReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaturalReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9C5DB49E2AD2CE8D00211A45 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		9C5DB4A02AD2CED700211A45 /* DateUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		9C5DB4A22AD2CF4D00211A45 /* ToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		9C5DB4A42AD2CF7A00211A45 /* TimeHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHolder.swift; sourceTree = "<group>"; };
+		9C5DB4A62AD2CFA300211A45 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9C5DB4A82AD2CFD100211A45 /* SettingsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsData.swift; sourceTree = "<group>"; };
+		9C5DB4AC2AD2D03E00211A45 /* BottomFieldText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomFieldText.swift; sourceTree = "<group>"; };
+		9C5F69A22ACAB8B300D24268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C5F69A42ACAC86900D24268 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		9C5F69A62ACAE52900D24268 /* DateStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStorage.swift; sourceTree = "<group>"; };
+		9C5F69A82ACAE69300D24268 /* ParsedListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParsedListItem.swift; sourceTree = "<group>"; };
+		9C5F69AA2ACC181F00D24268 /* ReminderManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderManager.swift; sourceTree = "<group>"; };
+		A089C83F51CC6FC6FA487E50 /* Pods_NaturalReminder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalReminder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE977790937B5AFBD1369435 /* Pods_NaturalReminder_NaturalReminderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalReminder_NaturalReminderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1E4482EEBFC1AECB181A2F0 /* Pods_NaturalReminderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaturalReminderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C08FB6C2AC9DF02000CD69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2C54E2E172C59B1164848E /* Pods_NaturalReminder.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08FB7D2AC9DF03000CD69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0804C60136BF450F238994F3 /* Pods_NaturalReminderTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08FB872AC9DF03000CD69D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D29B2219170A39DF7F7904EE /* Pods_NaturalReminder_NaturalReminderUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C08FB662AC9DF02000CD69D = {
+			isa = PBXGroup;
+			children = (
+				9C08FB712AC9DF02000CD69D /* NaturalReminder */,
+				9C08FB832AC9DF03000CD69D /* NaturalReminderTests */,
+				9C08FB8D2AC9DF03000CD69D /* NaturalReminderUITests */,
+				9C08FB702AC9DF02000CD69D /* Products */,
+				CF8CB79022739A82909DE6CC /* Pods */,
+				B29590C479784DABE01F6877 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9C08FB702AC9DF02000CD69D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C08FB6F2AC9DF02000CD69D /* NaturalReminder.app */,
+				9C08FB802AC9DF03000CD69D /* NaturalReminderTests.xctest */,
+				9C08FB8A2AC9DF03000CD69D /* NaturalReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C08FB712AC9DF02000CD69D /* NaturalReminder */ = {
+			isa = PBXGroup;
+			children = (
+				9C5DB4A62AD2CFA300211A45 /* SettingsView.swift */,
+				9C5F69A82ACAE69300D24268 /* ParsedListItem.swift */,
+				9C08FB722AC9DF02000CD69D /* NaturalReminderApp.swift */,
+				9C08FB742AC9DF02000CD69D /* ContentView.swift */,
+				9C08FB762AC9DF03000CD69D /* Assets.xcassets */,
+				9C08FB7B2AC9DF03000CD69D /* NaturalReminder.entitlements */,
+				9C08FB782AC9DF03000CD69D /* Preview Content */,
+				9C5F69A22ACAB8B300D24268 /* AppDelegate.swift */,
+				9C5F69A42ACAC86900D24268 /* NotificationManager.swift */,
+				9C5F69A62ACAE52900D24268 /* DateStorage.swift */,
+				9C5F69AA2ACC181F00D24268 /* ReminderManager.swift */,
+				9C5DB49E2AD2CE8D00211A45 /* ListItemView.swift */,
+				9C5DB4A02AD2CED700211A45 /* DateUtils.swift */,
+				9C5DB4A22AD2CF4D00211A45 /* ToggleButton.swift */,
+				9C5DB4A42AD2CF7A00211A45 /* TimeHolder.swift */,
+				9C5DB4A82AD2CFD100211A45 /* SettingsData.swift */,
+				9C5DB4AC2AD2D03E00211A45 /* BottomFieldText.swift */,
+			);
+			path = NaturalReminder;
+			sourceTree = "<group>";
+		};
+		9C08FB782AC9DF03000CD69D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C08FB792AC9DF03000CD69D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C08FB832AC9DF03000CD69D /* NaturalReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C08FB842AC9DF03000CD69D /* NaturalReminderTests.swift */,
+			);
+			path = NaturalReminderTests;
+			sourceTree = "<group>";
+		};
+		9C08FB8D2AC9DF03000CD69D /* NaturalReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C08FB8E2AC9DF03000CD69D /* NaturalReminderUITests.swift */,
+				9C08FB902AC9DF03000CD69D /* NaturalReminderUITestsLaunchTests.swift */,
+			);
+			path = NaturalReminderUITests;
+			sourceTree = "<group>";
+		};
+		B29590C479784DABE01F6877 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A089C83F51CC6FC6FA487E50 /* Pods_NaturalReminder.framework */,
+				BE977790937B5AFBD1369435 /* Pods_NaturalReminder_NaturalReminderUITests.framework */,
+				D1E4482EEBFC1AECB181A2F0 /* Pods_NaturalReminderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF8CB79022739A82909DE6CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5822D7315AAE5668CA9EE3D2 /* Pods-NaturalReminder.debug.xcconfig */,
+				901E590B5FE187610123F5A5 /* Pods-NaturalReminder.release.xcconfig */,
+				45A31F75B676DEBD630F010F /* Pods-NaturalReminder-NaturalReminderUITests.debug.xcconfig */,
+				33890A7A19D74841A5B1122F /* Pods-NaturalReminder-NaturalReminderUITests.release.xcconfig */,
+				75C806C60DFABF1386679E7F /* Pods-NaturalReminderTests.debug.xcconfig */,
+				4F02B0BFE2709038A33A291A /* Pods-NaturalReminderTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C08FB6E2AC9DF02000CD69D /* NaturalReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C08FB942AC9DF03000CD69D /* Build configuration list for PBXNativeTarget "NaturalReminder" */;
+			buildPhases = (
+				67DAB362CE56FEC58C42FA7F /* [CP] Check Pods Manifest.lock */,
+				9C08FB6B2AC9DF02000CD69D /* Sources */,
+				9C08FB6C2AC9DF02000CD69D /* Frameworks */,
+				9C08FB6D2AC9DF02000CD69D /* Resources */,
+				473E63A352874308C840FB91 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaturalReminder;
+			productName = NaturalReminder;
+			productReference = 9C08FB6F2AC9DF02000CD69D /* NaturalReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C08FB7F2AC9DF03000CD69D /* NaturalReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C08FB972AC9DF03000CD69D /* Build configuration list for PBXNativeTarget "NaturalReminderTests" */;
+			buildPhases = (
+				D3D6F8878F0C0C557E3F5EB2 /* [CP] Check Pods Manifest.lock */,
+				9C08FB7C2AC9DF03000CD69D /* Sources */,
+				9C08FB7D2AC9DF03000CD69D /* Frameworks */,
+				9C08FB7E2AC9DF03000CD69D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C08FB822AC9DF03000CD69D /* PBXTargetDependency */,
+			);
+			name = NaturalReminderTests;
+			productName = NaturalReminderTests;
+			productReference = 9C08FB802AC9DF03000CD69D /* NaturalReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C08FB892AC9DF03000CD69D /* NaturalReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C08FB9A2AC9DF03000CD69D /* Build configuration list for PBXNativeTarget "NaturalReminderUITests" */;
+			buildPhases = (
+				F9DA0261D13B55EF818968CE /* [CP] Check Pods Manifest.lock */,
+				9C08FB862AC9DF03000CD69D /* Sources */,
+				9C08FB872AC9DF03000CD69D /* Frameworks */,
+				9C08FB882AC9DF03000CD69D /* Resources */,
+				F04A68F57F181B0CD04FE43A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C08FB8C2AC9DF03000CD69D /* PBXTargetDependency */,
+			);
+			name = NaturalReminderUITests;
+			productName = NaturalReminderUITests;
+			productReference = 9C08FB8A2AC9DF03000CD69D /* NaturalReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C08FB672AC9DF02000CD69D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9C08FB6E2AC9DF02000CD69D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9C08FB7F2AC9DF03000CD69D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9C08FB6E2AC9DF02000CD69D;
+					};
+					9C08FB892AC9DF03000CD69D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9C08FB6E2AC9DF02000CD69D;
+					};
+				};
+			};
+			buildConfigurationList = 9C08FB6A2AC9DF02000CD69D /* Build configuration list for PBXProject "NaturalReminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C08FB662AC9DF02000CD69D;
+			productRefGroup = 9C08FB702AC9DF02000CD69D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C08FB6E2AC9DF02000CD69D /* NaturalReminder */,
+				9C08FB7F2AC9DF03000CD69D /* NaturalReminderTests */,
+				9C08FB892AC9DF03000CD69D /* NaturalReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C08FB6D2AC9DF02000CD69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08FB7A2AC9DF03000CD69D /* Preview Assets.xcassets in Resources */,
+				9C08FB772AC9DF03000CD69D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08FB7E2AC9DF03000CD69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08FB882AC9DF03000CD69D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		473E63A352874308C840FB91 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaturalReminder/Pods-NaturalReminder-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaturalReminder/Pods-NaturalReminder-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaturalReminder/Pods-NaturalReminder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67DAB362CE56FEC58C42FA7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalReminder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3D6F8878F0C0C557E3F5EB2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalReminderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04A68F57F181B0CD04FE43A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaturalReminder-NaturalReminderUITests/Pods-NaturalReminder-NaturalReminderUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaturalReminder-NaturalReminderUITests/Pods-NaturalReminder-NaturalReminderUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaturalReminder-NaturalReminderUITests/Pods-NaturalReminder-NaturalReminderUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DA0261D13B55EF818968CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaturalReminder-NaturalReminderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C08FB6B2AC9DF02000CD69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C5F69A32ACAB8B300D24268 /* AppDelegate.swift in Sources */,
+				9C5DB4A32AD2CF4D00211A45 /* ToggleButton.swift in Sources */,
+				9C08FB752AC9DF02000CD69D /* ContentView.swift in Sources */,
+				9C5DB4AD2AD2D03E00211A45 /* BottomFieldText.swift in Sources */,
+				9C5F69A52ACAC86900D24268 /* NotificationManager.swift in Sources */,
+				9C5DB49F2AD2CE8D00211A45 /* ListItemView.swift in Sources */,
+				9C5DB4A12AD2CED700211A45 /* DateUtils.swift in Sources */,
+				9C5F69AB2ACC181F00D24268 /* ReminderManager.swift in Sources */,
+				9C5F69A72ACAE52900D24268 /* DateStorage.swift in Sources */,
+				9C5DB4A92AD2CFD100211A45 /* SettingsData.swift in Sources */,
+				9C08FB732AC9DF02000CD69D /* NaturalReminderApp.swift in Sources */,
+				9C5DB4A72AD2CFA300211A45 /* SettingsView.swift in Sources */,
+				9C5F69A92ACAE69300D24268 /* ParsedListItem.swift in Sources */,
+				9C5DB4A52AD2CF7A00211A45 /* TimeHolder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08FB7C2AC9DF03000CD69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08FB852AC9DF03000CD69D /* NaturalReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C08FB862AC9DF03000CD69D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C08FB912AC9DF03000CD69D /* NaturalReminderUITestsLaunchTests.swift in Sources */,
+				9C08FB8F2AC9DF03000CD69D /* NaturalReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C08FB822AC9DF03000CD69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C08FB6E2AC9DF02000CD69D /* NaturalReminder */;
+			targetProxy = 9C08FB812AC9DF03000CD69D /* PBXContainerItemProxy */;
+		};
+		9C08FB8C2AC9DF03000CD69D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C08FB6E2AC9DF02000CD69D /* NaturalReminder */;
+			targetProxy = 9C08FB8B2AC9DF03000CD69D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C08FB922AC9DF03000CD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C08FB932AC9DF03000CD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9C08FB952AC9DF03000CD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5822D7315AAE5668CA9EE3D2 /* Pods-NaturalReminder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = NaturalReminder/NaturalReminder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NaturalReminder/Preview Content\"";
+				DEVELOPMENT_TEAM = QEB3Q76K6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citron.NaturalReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C08FB962AC9DF03000CD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901E590B5FE187610123F5A5 /* Pods-NaturalReminder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = NaturalReminder/NaturalReminder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NaturalReminder/Preview Content\"";
+				DEVELOPMENT_TEAM = QEB3Q76K6F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citron.NaturalReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C08FB982AC9DF03000CD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75C806C60DFABF1386679E7F /* Pods-NaturalReminderTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citron.NaturalReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaturalReminder";
+			};
+			name = Debug;
+		};
+		9C08FB992AC9DF03000CD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F02B0BFE2709038A33A291A /* Pods-NaturalReminderTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citron.NaturalReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NaturalReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NaturalReminder";
+			};
+			name = Release;
+		};
+		9C08FB9B2AC9DF03000CD69D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A31F75B676DEBD630F010F /* Pods-NaturalReminder-NaturalReminderUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citron.NaturalReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NaturalReminder;
+			};
+			name = Debug;
+		};
+		9C08FB9C2AC9DF03000CD69D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33890A7A19D74841A5B1122F /* Pods-NaturalReminder-NaturalReminderUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.citron.NaturalReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NaturalReminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C08FB6A2AC9DF02000CD69D /* Build configuration list for PBXProject "NaturalReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08FB922AC9DF03000CD69D /* Debug */,
+				9C08FB932AC9DF03000CD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C08FB942AC9DF03000CD69D /* Build configuration list for PBXNativeTarget "NaturalReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08FB952AC9DF03000CD69D /* Debug */,
+				9C08FB962AC9DF03000CD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C08FB972AC9DF03000CD69D /* Build configuration list for PBXNativeTarget "NaturalReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08FB982AC9DF03000CD69D /* Debug */,
+				9C08FB992AC9DF03000CD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C08FB9A2AC9DF03000CD69D /* Build configuration list for PBXNativeTarget "NaturalReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C08FB9B2AC9DF03000CD69D /* Debug */,
+				9C08FB9C2AC9DF03000CD69D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C08FB672AC9DF02000CD69D /* Project object */;
+}
