@@ -1,4 +1,4 @@
 # NaturalReminder
-MacOs task reminder using natural language
+MacOS task reminder using natural language
 
-![Screenshot 2024-01-08 at 22 41 25](https://github.com/jpcarrera/NaturalReminder/assets/44432075/b75cc6a5-2e72-4fc9-8ace-93c15b977131)
+<img src="https://github.com/jpcarrera/NaturalReminder/assets/44432075/49505762-ae7f-4008-b875-b98c0b2891c5" width="550">
